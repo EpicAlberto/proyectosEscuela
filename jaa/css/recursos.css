@@ -1,0 +1,67 @@
+
+h1 {
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    font-family: 'Agency FB', sans-serif;
+    color: aliceblue;
+}
+
+img {
+    position: absolute;
+    width: 12.5rem;
+    height: 7.5rem;
+}
+
+.imagen1{
+    left: 0px;
+    top: 0;
+
+}
+
+.imagen2{
+    left: 0;
+    bottom: 0;
+}
+
+.imagenes {
+    width: 100%;
+}
+
+.parrafos{
+    position: absolute;
+    display: flex;
+    border: 10px;
+    text-align: justify;
+    text-align: center;
+    z-index: 20;
+}
+
+.pf-1{
+    background-color: rgb(210, 201, 29);
+    margin:  50px;
+    padding: 1rem;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.pf-2{
+    background-color: rgb(230, 151, 33);
+    margin: 50px;
+    padding: 1rem;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.fot-1{
+    top: 0;
+    right: 0;
+
+}
+.fot-2{
+    right: 0;
+    bottom: 0;
+}
+.fot-3{
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
